@@ -52,8 +52,14 @@ main {
   bottom: 120px;
   right: 20px;
   color: white;
-  background-color: rgb(255, 110, 0);
+  background-color: var(--button--primary);
   padding: 10px 10px 10px 10px;
   border-radius: 20px;
   font-weight: bold;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
 }
