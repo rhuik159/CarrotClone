@@ -33,3 +33,16 @@ footer {
   font-weight: bold;
   transform: scale(1.5);
 }
+
+@keyframes icons-moving {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: trnslateY(30px);
+  }
+}
+
+.footer-icons:hover .footer-icons__img {
+  animation: 2s icons-moving infinite;
+}
